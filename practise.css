@@ -1,0 +1,89 @@
+h1{
+color: blue;
+text-decoration: underline;
+font-size: large;
+font-style: normal;
+}
+body{
+    background-color: lightgray;
+    margin: 15px;
+}
+button{
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.buton-2{
+    background-color: rgb(182, 14, 14);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 1s,
+    color 1s;
+    
+}
+.buton-2:hover{
+    background-color: green;
+
+}
+.buton-2:active{
+    background-color: yellow;
+}
+
+.buton-3{
+    background-color: white;
+    border-color: rgb(60, 60, 241);
+    border-style: solid;
+    color: blue;
+    border-width: 1px;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+}
+.buton-3:hover{
+    background-color: palegreen;
+}
+
+.buton-3:active{
+    background-color: orchid;
+}
+
+.buton-4{
+    background-color: #0099ff;
+    color:white;
+    border:none;
+    height: 36px;
+    cursor: pointer;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.buton-4:hover{
+    background-color: orangered;
+}
+.buton-4:active{
+    background-color: red;
+}
+.para-1{
+    font-style:oblique;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    width: 500px;
+}
+.para-2{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
